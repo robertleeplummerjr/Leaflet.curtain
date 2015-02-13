@@ -1,0 +1,31 @@
+{
+  "name": "Leaflet.curtain",
+  "main": "Leaflet.curtain.js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/robertleeplummerjr/Leaflet.curtain",
+  "authors": [
+    "Robert Plummer <RobertLeePlummerJr@Gmail.com>"
+  ],
+  "description": "A performance enhancer for leaflet layers & features",
+  "keywords": [
+    "leaflet",
+    "performance",
+    "layer",
+    "layers",
+    "feature",
+    "features",
+    "fast",
+    "faster"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet": "https://github.com/Leaflet/Leaflet.git#~0.7.3"
+  }
+}

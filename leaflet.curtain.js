@@ -4,8 +4,17 @@
 	 * @constructor
 	 */
 	function Curtain(map) {
+		var curtain = this;
 		this.map = map;
 		this.items = [];
+
+		map
+			.on('dragend', function () {
+				curtain.refresh();
+			})
+			.on('zoomend', function() {
+				curtain.refresh();
+			});
 	}
 
 	Curtain.prototype = {
